@@ -1,0 +1,477 @@
+Date/Time:       2024-02-10 18:30:29 
+Command line:    C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Scripts\briefcase new
+
+OS Release:      Windows 10
+OS Version:      10.0.19045
+Architecture:    AMD64
+Platform:        Windows-10-10.0.19045-SP0
+
+Python exe:      C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Scripts\python.exe
+Python version:  3.11.4 (tags/v3.11.4:d2340ef, Jun  7 2023, 05:45:37) [MSC v.1934 64 bit (AMD64)]
+Virtual env:     True
+Conda env:       False
+
+Briefcase:       0.3.17
+Target platform: all
+Target format:   None
+
+Environment Variables:
+	ALLUSERSPROFILE=C:\ProgramData
+	APPDATA=C:\Users\User\AppData\Roaming
+	COMMONPROGRAMFILES=C:\Program Files\Common Files
+	COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+	COMMONPROGRAMW6432=C:\Program Files\Common Files
+	COMPUTERNAME=DESKTOP-MM76GU2
+	COMSPEC=C:\Windows\system32\cmd.exe
+	DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\User
+	IDEA_INITIAL_DIRECTORY=C:\Users\User\Desktop
+	LOCALAPPDATA=C:\Users\User\AppData\Local
+	LOGONSERVER=\\DESKTOP-MM76GU2
+	NUMBER_OF_PROCESSORS=8
+	ONEDRIVE=C:\Users\User\OneDrive
+	ONEDRIVECONSUMER=C:\Users\User\OneDrive
+	OS=Windows_NT
+	PATH=C:\Users\User\PycharmProjectsGame\pythonProject1\.venv/Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\User\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python311\;C:\Users\User\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\User\AppData\Local\Programs\Python\Python310\;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+	PROCESSOR_ARCHITECTURE=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 126 Stepping 5, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=7e05
+	PROGRAMDATA=C:\ProgramData
+	PROGRAMFILES=C:\Program Files
+	PROGRAMFILES(X86)=C:\Program Files (x86)
+	PROGRAMW6432=C:\Program Files
+	PSEXECUTIONPOLICYPREFERENCE=RemoteSigned
+	PSMODULEPATH=C:\Users\User\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	PYCHARM COMMUNITY EDITION=C:\Program Files\JetBrains\PyCharm Community Edition 2023.3.2\bin;
+	SESSIONNAME=Console
+	SYSTEMDRIVE=C:
+	SYSTEMROOT=C:\Windows
+	TEMP=C:\Users\User\AppData\Local\Temp
+	TERMINAL_EMULATOR=JetBrains-JediTerm
+	TERM_SESSION_ID=a25235f5-a668-4fa4-8268-da52d6acc2af
+	TMP=C:\Users\User\AppData\Local\Temp
+	USERDOMAIN=DESKTOP-MM76GU2
+	USERDOMAIN_ROAMINGPROFILE=DESKTOP-MM76GU2
+	USERNAME=User
+	USERPROFILE=C:\Users\User
+	VIRTUAL_ENV=C:\Users\User\PycharmProjectsGame\pythonProject1\.venv
+	VIRTUAL_ENV_PROMPT=.venv
+	WINDIR=C:\Windows
+	ZES_ENABLE_SYSMAN=1
+
+Briefcase Log:
+[18:30:29]                                                                                                                                                            __main__.py:44
+           Briefcase requires git, but it is not installed (or is not on your PATH). Visit:                                                                           __main__.py:45
+                                                                                                                                                                      __main__.py:45
+               https://git-scm.com/                                                                                                                                   __main__.py:45
+                                                                                                                                                                      __main__.py:45
+           to download and install git manually.                                                                                                                      __main__.py:45
+                                                                                                                                                                      __main__.py:45
+           If you have installed git recently and are still getting this error, you may                                                                               __main__.py:45
+           need to restart your terminal session.                                                                                                                     __main__.py:45
+
+Main thread traceback:
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\git\__init__.py:140 in <module>                                                                         │
+│                                                                                                                                                                                  │
+│   137                                                                                                                                                                            │
+│   138 #################                                                                                                                                                          │
+│   139 try:                                                                                                                                                                       │
+│ ❱ 140 │   refresh()                                                                                                                                                              │
+│   141 except Exception as _exc:                                                                                                                                                  │
+│   142 │   raise ImportError("Failed to initialize: {0}".format(_exc)) from _exc                                                                                                  │
+│   143 #################                                                                                                                                                          │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │                         Actor = <class 'git.util.Actor'>                                                                                                                     │ │
+│ │           AmbiguousObjectName = <class 'gitdb.exc.AmbiguousObjectName'>                                                                                                      │ │
+│ │                       BadName = <class 'gitdb.exc.BadName'>                                                                                                                  │ │
+│ │                     BadObject = <class 'gitdb.exc.BadObject'>                                                                                                                │ │
+│ │                 BadObjectType = <class 'gitdb.exc.BadObjectType'>                                                                                                            │ │
+│ │                          base = <module 'git.index.base' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\base.py'>        │ │
+│ │                BaseIndexEntry = <class 'git.index.typ.BaseIndexEntry'>                                                                                                       │ │
+│ │                          Blob = <class 'git.objects.blob.Blob'>                                                                                                              │ │
+│ │                    BlobFilter = <class 'git.index.typ.BlobFilter'>                                                                                                           │ │
+│ │              BlockingLockFile = <class 'git.util.BlockingLockFile'>                                                                                                          │ │
+│ │                    CacheError = <class 'git.exc.CacheError'>                                                                                                                 │ │
+│ │                 CheckoutError = <class 'git.exc.CheckoutError'>                                                                                                              │ │
+│ │                           cmd = <module 'git.cmd' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\cmd.py'>                       │ │
+│ │                  CommandError = <class 'git.exc.CommandError'>                                                                                                               │ │
+│ │                        Commit = <class 'git.objects.commit.Commit'>                                                                                                          │ │
+│ │                        compat = <module 'git.compat' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\compat.py'>                 │ │
+│ │                        config = <module 'git.config' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\config.py'>                 │ │
+│ │                            db = <module 'git.db' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\db.py'>                         │ │
+│ │                          diff = <module 'git.diff' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\diff.py'>                     │ │
+│ │                          Diff = <class 'git.diff.Diff'>                                                                                                                      │ │
+│ │                      Diffable = <class 'git.diff.Diffable'>                                                                                                                  │ │
+│ │                     DiffIndex = <class 'git.diff.DiffIndex'>                                                                                                                 │ │
+│ │                           exc = <module 'git.exc' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\exc.py'>                       │ │
+│ │                     FetchInfo = <class 'git.remote.FetchInfo'>                                                                                                               │ │
+│ │                           fun = <module 'git.index.fun' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\fun.py'>          │ │
+│ │                           Git = <class 'git.cmd.Git'>                                                                                                                        │ │
+│ │                        GIT_OK = False                                                                                                                                        │ │
+│ │                GitCmdObjectDB = <class 'git.db.GitCmdObjectDB'>                                                                                                              │ │
+│ │               GitCommandError = <class 'git.exc.GitCommandError'>                                                                                                            │ │
+│ │            GitCommandNotFound = <class 'git.exc.GitCommandNotFound'>                                                                                                         │ │
+│ │               GitConfigParser = <class 'git.config.GitConfigParser'>                                                                                                         │ │
+│ │                         GitDB = <class 'gitdb.db.git.GitDB'>                                                                                                                 │ │
+│ │                      GitError = <class 'git.exc.GitError'>                                                                                                                   │ │
+│ │                          head = <module 'git.refs.head' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\head.py'>          │ │
+│ │                          HEAD = <class 'git.refs.head.HEAD'>                                                                                                                 │ │
+│ │                          Head = <class 'git.refs.head.Head'>                                                                                                                 │ │
+│ │            HookExecutionError = <class 'git.exc.HookExecutionError'>                                                                                                         │ │
+│ │                         index = <module 'git.index' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\__init__.py'>         │ │
+│ │                    IndexEntry = <class 'git.index.typ.IndexEntry'>                                                                                                           │ │
+│ │                     IndexFile = <class 'git.index.base.IndexFile'>                                                                                                           │ │
+│ │                   IndexObject = <class 'git.objects.base.IndexObject'>                                                                                                       │ │
+│ │                 InvalidDBRoot = <class 'gitdb.exc.InvalidDBRoot'>                                                                                                            │ │
+│ │     InvalidGitRepositoryError = <class 'git.exc.InvalidGitRepositoryError'>                                                                                                  │ │
+│ │                          List = typing.List                                                                                                                                  │ │
+│ │                      LockFile = <class 'git.util.LockFile'>                                                                                                                  │ │
+│ │                           log = <module 'git.refs.log' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\log.py'>            │ │
+│ │               NoSuchPathError = <class 'git.exc.NoSuchPathError'>                                                                                                            │ │
+│ │                     NULL_TREE = <object object at 0x00000158F93C58F0>                                                                                                        │ │
+│ │                        Object = <class 'git.objects.base.Object'>                                                                                                            │ │
+│ │                       objects = <module 'git.objects' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\objects\\__init__.py'>     │ │
+│ │                      ODBError = <class 'gitdb.exc.ODBError'>                                                                                                                 │ │
+│ │                      Optional = typing.Optional                                                                                                                              │ │
+│ │                    ParseError = <class 'gitdb.exc.ParseError'>                                                                                                               │ │
+│ │                      PathLike = typing.Union[str, ForwardRef('os.PathLike[str]')]                                                                                            │ │
+│ │                      PushInfo = <class 'git.remote.PushInfo'>                                                                                                                │ │
+│ │                     reference = <module 'git.refs.reference' from                                                                                                            │ │
+│ │                                 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\reference.py'>                                  │ │
+│ │                     Reference = <class 'git.refs.reference.Reference'>                                                                                                       │ │
+│ │                        RefLog = <class 'git.refs.log.RefLog'>                                                                                                                │ │
+│ │                   RefLogEntry = <class 'git.refs.log.RefLogEntry'>                                                                                                           │ │
+│ │                       refresh = <function refresh at 0x00000158FD142CA0>                                                                                                     │ │
+│ │                          refs = <module 'git.refs' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\__init__.py'>           │ │
+│ │                        remote = <module 'git.remote' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\remote.py'>                 │ │
+│ │                        Remote = <class 'git.remote.Remote'>                                                                                                                  │ │
+│ │                RemoteProgress = <class 'git.util.RemoteProgress'>                                                                                                            │ │
+│ │               RemoteReference = <class 'git.refs.remote.RemoteReference'>                                                                                                    │ │
+│ │    remove_password_if_present = <function remove_password_if_present at 0x00000158FD53A5C0>                                                                                  │ │
+│ │                          repo = <module 'git.repo' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\repo\\__init__.py'>           │ │
+│ │                          Repo = <class 'git.repo.base.Repo'>                                                                                                                 │ │
+│ │          RepositoryDirtyError = <class 'git.exc.RepositoryDirtyError'>                                                                                                       │ │
+│ │                        rmtree = <function rmtree at 0x00000158FD539580>                                                                                                      │ │
+│ │                    RootModule = <class 'git.objects.submodule.root.RootModule'>                                                                                              │ │
+│ │            RootUpdateProgress = <class 'git.objects.submodule.root.RootUpdateProgress'>                                                                                      │ │
+│ │                   safe_decode = <function safe_decode at 0x00000158FD538220>                                                                                                 │ │
+│ │                      Sequence = typing.Sequence                                                                                                                              │ │
+│ │                     StageType = <class 'int'>                                                                                                                                │ │
+│ │                         Stats = <class 'git.util.Stats'>                                                                                                                     │ │
+│ │                     Submodule = <class 'git.objects.submodule.base.Submodule'>                                                                                               │ │
+│ │                      symbolic = <module 'git.refs.symbolic' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\symbolic.py'>  │ │
+│ │             SymbolicReference = <class 'git.refs.symbolic.SymbolicReference'>                                                                                                │ │
+│ │                           tag = <module 'git.refs.tag' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\tag.py'>            │ │
+│ │                           Tag = <class 'git.refs.tag.TagReference'>                                                                                                          │ │
+│ │                     TagObject = <class 'git.objects.tag.TagObject'>                                                                                                          │ │
+│ │                  TagReference = <class 'git.refs.tag.TagReference'>                                                                                                          │ │
+│ │                    to_hex_sha = <function to_hex_sha at 0x00000158FD4D74C0>                                                                                                  │ │
+│ │                          Tree = <class 'git.objects.tree.Tree'>                                                                                                              │ │
+│ │                  TreeModifier = <class 'git.objects.tree.TreeModifier'>                                                                                                      │ │
+│ │                         Tuple = typing.Tuple                                                                                                                                 │ │
+│ │                           typ = <module 'git.index.typ' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\typ.py'>          │ │
+│ │                 TYPE_CHECKING = False                                                                                                                                        │ │
+│ │                         types = <module 'git.types' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\types.py'>                   │ │
+│ │                         Union = typing.Union                                                                                                                                 │ │
+│ │          UnmergedEntriesError = <class 'git.exc.UnmergedEntriesError'>                                                                                                       │ │
+│ │             UnsafeOptionError = <class 'git.exc.UnsafeOptionError'>                                                                                                          │ │
+│ │           UnsafeProtocolError = <class 'git.exc.UnsafeProtocolError'>                                                                                                        │ │
+│ │          UnsupportedOperation = <class 'gitdb.exc.UnsupportedOperation'>                                                                                                     │ │
+│ │                UpdateProgress = <class 'git.objects.submodule.base.UpdateProgress'>                                                                                          │ │
+│ │                          util = <module 'git.index.util' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\util.py'>        │ │
+│ │ WorkTreeRepositoryUnsupported = <class 'git.exc.WorkTreeRepositoryUnsupported'>                                                                                              │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\git\__init__.py:127 in refresh                                                                          │
+│                                                                                                                                                                                  │
+│   124 │   global GIT_OK                                                                        ╭── locals ───╮                                                                   │
+│   125 │   GIT_OK = False                                                                       │ path = None │                                                                   │
+│   126 │                                                                                        ╰─────────────╯                                                                   │
+│ ❱ 127 │   if not Git.refresh(path=path):                                                                                                                                         │
+│   128 │   │   return                                                                                                                                                             │
+│   129 │   if not FetchInfo.refresh():  # noqa: F405                                                                                                                              │
+│   130 │   │   return  # type: ignore [unreachable]                                                                                                                               │
+│                                                                                                                                                                                  │
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\git\cmd.py:456 in refresh                                                                               │
+│                                                                                                                                                                                  │
+│    453 │   │   │   │   │   if mode in warn:                                                                                                                                      │
+│    454 │   │   │   │   │   │   print("WARNING: %s" % err)                                                                                                                        │
+│    455 │   │   │   │   │   else:                                                                                                                                                 │
+│ ❱  456 │   │   │   │   │   │   raise ImportError(err)                                                                                                                            │
+│    457 │   │   │   │   else:                                                                                                                                                     │
+│    458 │   │   │   │   │   err = (                                                                                                                                               │
+│    459 │   │   │   │   │   │   dedent(                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ╭───────────────────────────────────────────── locals ──────────────────────────────────────────────╮                                                                            │
+│ │     cls = <class 'git.cmd.Git'>                                                                   │                                                                            │
+│ │     err = 'Bad git executable.\nThe git executable must be specified in one of the following'+534 │                                                                            │
+│ │   error = ['error', 'e', 'raise', 'r', '2']                                                       │                                                                            │
+│ │ has_git = False                                                                                   │                                                                            │
+│ │    mode = 'raise'                                                                                 │                                                                            │
+│ │ new_git = 'git'                                                                                   │                                                                            │
+│ │ old_git = None                                                                                    │                                                                            │
+│ │    path = None                                                                                    │                                                                            │
+│ │   quiet = ['quiet', 'q', 'silence', 's', 'none', 'n', '0']                                        │                                                                            │
+│ │    warn = ['warn', 'w', 'warning', '1']                                                           │                                                                            │
+│ ╰───────────────────────────────────────────────────────────────────────────────────────────────────╯                                                                            │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\briefcase\integrations\git.py:37 in verify_install                                                      │
+│                                                                                                                                                                                  │
+│   34 │   │                                                                                    ╭─────────────────────────────────── locals ────────────────────────────────────╮  │
+│   35 │   │   # Check whether the git executable could be imported.                            │    cls = <class 'briefcase.integrations.git.Git'>                             │  │
+│   36 │   │   try:                                                                             │ kwargs = {'app': None}                                                        │  │
+│ ❱ 37 │   │   │   import git                                                                   │  tools = <briefcase.integrations.base.ToolCache object at 0x00000158FD0FB650> │  │
+│   38 │   │   except ImportError as e:  # pragma: no cover                                     ╰───────────────────────────────────────────────────────────────────────────────╯  │
+│   39 │   │   │   # macOS provides git as part of the Xcode command line tools,                                                                                                   │
+│   40 │   │   │   # and also hijacks /usr/bin/git with a trigger that prompts the                                                                                                 │
+│                                                                                                                                                                                  │
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\git\__init__.py:142 in <module>                                                                         │
+│                                                                                                                                                                                  │
+│   139 try:                                                                                                                                                                       │
+│   140 │   refresh()                                                                                                                                                              │
+│   141 except Exception as _exc:                                                                                                                                                  │
+│ ❱ 142 │   raise ImportError("Failed to initialize: {0}".format(_exc)) from _exc                                                                                                  │
+│   143 #################                                                                                                                                                          │
+│   144                                                                                                                                                                            │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │                         Actor = <class 'git.util.Actor'>                                                                                                                     │ │
+│ │           AmbiguousObjectName = <class 'gitdb.exc.AmbiguousObjectName'>                                                                                                      │ │
+│ │                       BadName = <class 'gitdb.exc.BadName'>                                                                                                                  │ │
+│ │                     BadObject = <class 'gitdb.exc.BadObject'>                                                                                                                │ │
+│ │                 BadObjectType = <class 'gitdb.exc.BadObjectType'>                                                                                                            │ │
+│ │                          base = <module 'git.index.base' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\base.py'>        │ │
+│ │                BaseIndexEntry = <class 'git.index.typ.BaseIndexEntry'>                                                                                                       │ │
+│ │                          Blob = <class 'git.objects.blob.Blob'>                                                                                                              │ │
+│ │                    BlobFilter = <class 'git.index.typ.BlobFilter'>                                                                                                           │ │
+│ │              BlockingLockFile = <class 'git.util.BlockingLockFile'>                                                                                                          │ │
+│ │                    CacheError = <class 'git.exc.CacheError'>                                                                                                                 │ │
+│ │                 CheckoutError = <class 'git.exc.CheckoutError'>                                                                                                              │ │
+│ │                           cmd = <module 'git.cmd' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\cmd.py'>                       │ │
+│ │                  CommandError = <class 'git.exc.CommandError'>                                                                                                               │ │
+│ │                        Commit = <class 'git.objects.commit.Commit'>                                                                                                          │ │
+│ │                        compat = <module 'git.compat' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\compat.py'>                 │ │
+│ │                        config = <module 'git.config' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\config.py'>                 │ │
+│ │                            db = <module 'git.db' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\db.py'>                         │ │
+│ │                          diff = <module 'git.diff' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\diff.py'>                     │ │
+│ │                          Diff = <class 'git.diff.Diff'>                                                                                                                      │ │
+│ │                      Diffable = <class 'git.diff.Diffable'>                                                                                                                  │ │
+│ │                     DiffIndex = <class 'git.diff.DiffIndex'>                                                                                                                 │ │
+│ │                           exc = <module 'git.exc' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\exc.py'>                       │ │
+│ │                     FetchInfo = <class 'git.remote.FetchInfo'>                                                                                                               │ │
+│ │                           fun = <module 'git.index.fun' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\fun.py'>          │ │
+│ │                           Git = <class 'git.cmd.Git'>                                                                                                                        │ │
+│ │                        GIT_OK = False                                                                                                                                        │ │
+│ │                GitCmdObjectDB = <class 'git.db.GitCmdObjectDB'>                                                                                                              │ │
+│ │               GitCommandError = <class 'git.exc.GitCommandError'>                                                                                                            │ │
+│ │            GitCommandNotFound = <class 'git.exc.GitCommandNotFound'>                                                                                                         │ │
+│ │               GitConfigParser = <class 'git.config.GitConfigParser'>                                                                                                         │ │
+│ │                         GitDB = <class 'gitdb.db.git.GitDB'>                                                                                                                 │ │
+│ │                      GitError = <class 'git.exc.GitError'>                                                                                                                   │ │
+│ │                          head = <module 'git.refs.head' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\head.py'>          │ │
+│ │                          HEAD = <class 'git.refs.head.HEAD'>                                                                                                                 │ │
+│ │                          Head = <class 'git.refs.head.Head'>                                                                                                                 │ │
+│ │            HookExecutionError = <class 'git.exc.HookExecutionError'>                                                                                                         │ │
+│ │                         index = <module 'git.index' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\__init__.py'>         │ │
+│ │                    IndexEntry = <class 'git.index.typ.IndexEntry'>                                                                                                           │ │
+│ │                     IndexFile = <class 'git.index.base.IndexFile'>                                                                                                           │ │
+│ │                   IndexObject = <class 'git.objects.base.IndexObject'>                                                                                                       │ │
+│ │                 InvalidDBRoot = <class 'gitdb.exc.InvalidDBRoot'>                                                                                                            │ │
+│ │     InvalidGitRepositoryError = <class 'git.exc.InvalidGitRepositoryError'>                                                                                                  │ │
+│ │                          List = typing.List                                                                                                                                  │ │
+│ │                      LockFile = <class 'git.util.LockFile'>                                                                                                                  │ │
+│ │                           log = <module 'git.refs.log' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\log.py'>            │ │
+│ │               NoSuchPathError = <class 'git.exc.NoSuchPathError'>                                                                                                            │ │
+│ │                     NULL_TREE = <object object at 0x00000158F93C58F0>                                                                                                        │ │
+│ │                        Object = <class 'git.objects.base.Object'>                                                                                                            │ │
+│ │                       objects = <module 'git.objects' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\objects\\__init__.py'>     │ │
+│ │                      ODBError = <class 'gitdb.exc.ODBError'>                                                                                                                 │ │
+│ │                      Optional = typing.Optional                                                                                                                              │ │
+│ │                    ParseError = <class 'gitdb.exc.ParseError'>                                                                                                               │ │
+│ │                      PathLike = typing.Union[str, ForwardRef('os.PathLike[str]')]                                                                                            │ │
+│ │                      PushInfo = <class 'git.remote.PushInfo'>                                                                                                                │ │
+│ │                     reference = <module 'git.refs.reference' from                                                                                                            │ │
+│ │                                 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\reference.py'>                                  │ │
+│ │                     Reference = <class 'git.refs.reference.Reference'>                                                                                                       │ │
+│ │                        RefLog = <class 'git.refs.log.RefLog'>                                                                                                                │ │
+│ │                   RefLogEntry = <class 'git.refs.log.RefLogEntry'>                                                                                                           │ │
+│ │                       refresh = <function refresh at 0x00000158FD142CA0>                                                                                                     │ │
+│ │                          refs = <module 'git.refs' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\__init__.py'>           │ │
+│ │                        remote = <module 'git.remote' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\remote.py'>                 │ │
+│ │                        Remote = <class 'git.remote.Remote'>                                                                                                                  │ │
+│ │                RemoteProgress = <class 'git.util.RemoteProgress'>                                                                                                            │ │
+│ │               RemoteReference = <class 'git.refs.remote.RemoteReference'>                                                                                                    │ │
+│ │    remove_password_if_present = <function remove_password_if_present at 0x00000158FD53A5C0>                                                                                  │ │
+│ │                          repo = <module 'git.repo' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\repo\\__init__.py'>           │ │
+│ │                          Repo = <class 'git.repo.base.Repo'>                                                                                                                 │ │
+│ │          RepositoryDirtyError = <class 'git.exc.RepositoryDirtyError'>                                                                                                       │ │
+│ │                        rmtree = <function rmtree at 0x00000158FD539580>                                                                                                      │ │
+│ │                    RootModule = <class 'git.objects.submodule.root.RootModule'>                                                                                              │ │
+│ │            RootUpdateProgress = <class 'git.objects.submodule.root.RootUpdateProgress'>                                                                                      │ │
+│ │                   safe_decode = <function safe_decode at 0x00000158FD538220>                                                                                                 │ │
+│ │                      Sequence = typing.Sequence                                                                                                                              │ │
+│ │                     StageType = <class 'int'>                                                                                                                                │ │
+│ │                         Stats = <class 'git.util.Stats'>                                                                                                                     │ │
+│ │                     Submodule = <class 'git.objects.submodule.base.Submodule'>                                                                                               │ │
+│ │                      symbolic = <module 'git.refs.symbolic' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\symbolic.py'>  │ │
+│ │             SymbolicReference = <class 'git.refs.symbolic.SymbolicReference'>                                                                                                │ │
+│ │                           tag = <module 'git.refs.tag' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\refs\\tag.py'>            │ │
+│ │                           Tag = <class 'git.refs.tag.TagReference'>                                                                                                          │ │
+│ │                     TagObject = <class 'git.objects.tag.TagObject'>                                                                                                          │ │
+│ │                  TagReference = <class 'git.refs.tag.TagReference'>                                                                                                          │ │
+│ │                    to_hex_sha = <function to_hex_sha at 0x00000158FD4D74C0>                                                                                                  │ │
+│ │                          Tree = <class 'git.objects.tree.Tree'>                                                                                                              │ │
+│ │                  TreeModifier = <class 'git.objects.tree.TreeModifier'>                                                                                                      │ │
+│ │                         Tuple = typing.Tuple                                                                                                                                 │ │
+│ │                           typ = <module 'git.index.typ' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\typ.py'>          │ │
+│ │                 TYPE_CHECKING = False                                                                                                                                        │ │
+│ │                         types = <module 'git.types' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\types.py'>                   │ │
+│ │                         Union = typing.Union                                                                                                                                 │ │
+│ │          UnmergedEntriesError = <class 'git.exc.UnmergedEntriesError'>                                                                                                       │ │
+│ │             UnsafeOptionError = <class 'git.exc.UnsafeOptionError'>                                                                                                          │ │
+│ │           UnsafeProtocolError = <class 'git.exc.UnsafeProtocolError'>                                                                                                        │ │
+│ │          UnsupportedOperation = <class 'gitdb.exc.UnsupportedOperation'>                                                                                                     │ │
+│ │                UpdateProgress = <class 'git.objects.submodule.base.UpdateProgress'>                                                                                          │ │
+│ │                          util = <module 'git.index.util' from 'C:\\Users\\User\\PycharmProjectsGame\\pythonProject1\\.venv\\Lib\\site-packages\\git\\index\\util.py'>        │ │
+│ │ WorkTreeRepositoryUnsupported = <class 'git.exc.WorkTreeRepositoryUnsupported'>                                                                                              │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+╭─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────╮
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\briefcase\__main__.py:29 in main                                                                        │
+│                                                                                                                                                                                  │
+│   26 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   27 │   │   │   overrides=overrides,                                                                                                                                            │
+│   28 │   │   )                                                                                                                                                                   │
+│ ❱ 29 │   │   command(**options)                                                                                                                                                  │
+│   30 │   except HelpText as e:                                                                                                                                                   │
+│   31 │   │   logger.info()                                                                                                                                                       │
+│   32 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────────────────────────────╮ │
+│ │       command = <briefcase.commands.new.NewCommand object at 0x00000158FD0CBE50>                                                                                             │ │
+│ │       Command = <class 'briefcase.commands.new.NewCommand'>                                                                                                                  │ │
+│ │       console = <briefcase.console.Console object at 0x00000158FD0CBDD0>                                                                                                     │ │
+│ │             e = BriefcaseCommandError('Briefcase requires git, but it is not installed (or is not on your PATH). Visit:\n\n    https://git-scm.com/\n\nto download and       │ │
+│ │                 install git manually.\n\nIf you have installed git recently and are still getting this error, you may\nneed to restart your terminal session.\n')            │ │
+│ │ extra_cmdline = []                                                                                                                                                           │ │
+│ │        logger = <briefcase.console.Log object at 0x00000158F9EBAE50>                                                                                                         │ │
+│ │       options = {'template': None, 'template_branch': None, 'project_overrides': None}                                                                                       │ │
+│ │     overrides = {}                                                                                                                                                           │ │
+│ │       printer = <briefcase.console.Printer object at 0x00000158F95B40D0>                                                                                                     │ │
+│ │        result = 200                                                                                                                                                          │ │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯ │
+│                                                                                                                                                                                  │
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\briefcase\commands\new.py:729 in __call__                                                               │
+│                                                                                                                                                                                  │
+│   726 │   ):                                                                                                                                                                     │
+│   727 │   │   # Confirm host compatibility, and that all required tools are available.                                                                                           │
+│   728 │   │   # There are no apps, so finalize() will be a no op on app configurations.                                                                                          │
+│ ❱ 729 │   │   self.finalize()                                                                                                                                                    │
+│   730 │   │                                                                                                                                                                      │
+│   731 │   │   return self.new_app(                                                                                                                                               │
+│   732 │   │   │   template=template,                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ╭─────────────────────────────────────── locals ───────────────────────────────────────╮                                                                                         │
+│ │           options = {}                                                               │                                                                                         │
+│ │ project_overrides = None                                                             │                                                                                         │
+│ │              self = <briefcase.commands.new.NewCommand object at 0x00000158FD0CBE50> │                                                                                         │
+│ │          template = None                                                             │                                                                                         │
+│ │   template_branch = None                                                             │                                                                                         │
+│ ╰──────────────────────────────────────────────────────────────────────────────────────╯                                                                                         │
+│                                                                                                                                                                                  │
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\briefcase\commands\base.py:578 in finalize                                                              │
+│                                                                                                                                                                                  │
+│   575 │   │   │   to finalize. By default, all apps will be finalized.                         ╭──────────────────────────────── locals ─────────────────────────────────╮       │
+│   576 │   │   """                                                                              │  app = None                                                             │       │
+│   577 │   │   self.verify_host()                                                               │ self = <briefcase.commands.new.NewCommand object at 0x00000158FD0CBE50> │       │
+│ ❱ 578 │   │   self.verify_tools()                                                              ╰─────────────────────────────────────────────────────────────────────────╯       │
+│   579 │   │                                                                                                                                                                      │
+│   580 │   │   if app is None:                                                                                                                                                    │
+│   581 │   │   │   for app in self.apps.values():                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\briefcase\commands\new.py:718 in verify_tools                                                           │
+│                                                                                                                                                                                  │
+│   715 │   │   Raises MissingToolException if a required system tool is missing.                ╭──────────────────────────────── locals ─────────────────────────────────╮       │
+│   716 │   │   """                                                                              │ self = <briefcase.commands.new.NewCommand object at 0x00000158FD0CBE50> │       │
+│   717 │   │   super().verify_tools()                                                           ╰─────────────────────────────────────────────────────────────────────────╯       │
+│ ❱ 718 │   │   Git.verify(tools=self.tools)                                                                                                                                       │
+│   719 │                                                                                                                                                                          │
+│   720 │   def __call__(                                                                                                                                                          │
+│   721 │   │   self,                                                                                                                                                              │
+│                                                                                                                                                                                  │
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\briefcase\integrations\base.py:77 in verify                                                             │
+│                                                                                                                                                                                  │
+│    74 │   ) -> ToolT:                                                                          ╭─────────────────────────────────── locals ────────────────────────────────────╮ │
+│    75 │   │   """Confirm the tool is available and usable on the host platform."""             │    app = None                                                                 │ │
+│    76 │   │   cls.verify_host(tools=tools)                                                     │    cls = <class 'briefcase.integrations.git.Git'>                             │ │
+│ ❱  77 │   │   tool = cls.verify_install(tools=tools, app=app, **kwargs)                        │ kwargs = {}                                                                   │ │
+│    78 │   │   return tool                                                                      │  tools = <briefcase.integrations.base.ToolCache object at 0x00000158FD0FB650> │ │
+│    79 │                                                                                        ╰───────────────────────────────────────────────────────────────────────────────╯ │
+│    80 │   @classmethod                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ C:\Users\User\PycharmProjectsGame\pythonProject1\.venv\Lib\site-packages\briefcase\integrations\git.py:62 in verify_install                                                      │
+│                                                                                                                                                                                  │
+│   59 │   │   │   │   ) from e                                                                 ╭─────────────────────────────────── locals ────────────────────────────────────╮  │
+│   60 │   │   │                                                                                │    cls = <class 'briefcase.integrations.git.Git'>                             │  │
+│   61 │   │   │   else:                                                                        │ kwargs = {'app': None}                                                        │  │
+│ ❱ 62 │   │   │   │   raise BriefcaseCommandError(                                             │  tools = <briefcase.integrations.base.ToolCache object at 0x00000158FD0FB650> │  │
+│   63 │   │   │   │   │   """\                                                                 ╰───────────────────────────────────────────────────────────────────────────────╯  │
+│   64 Briefcase requires git, but it is not installed (or is not on your PATH). Visit:                                                                                            │
+│   65                                                                                                                                                                             │
+╰──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+BriefcaseCommandError: Briefcase requires git, but it is not installed (or is not on your PATH). Visit:
+
+    https://git-scm.com/
+
+to download and install git manually.
+
+If you have installed git recently and are still getting this error, you may
+need to restart your terminal session.
+
